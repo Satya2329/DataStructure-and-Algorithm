@@ -32,7 +32,7 @@ class LinkedList {
     }
 }
 
-public class Main {
+public class DeleteAtBegin {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.head = new Node(10);
