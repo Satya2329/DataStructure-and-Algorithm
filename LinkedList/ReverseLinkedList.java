@@ -1,4 +1,4 @@
-package Tress_BinaryTrees;
+package LinkedList;
 
 class Node {
     int data;
