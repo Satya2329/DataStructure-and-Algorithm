@@ -39,7 +39,6 @@ public class DeleteAtEnd {
         DeleteAtEnd solution = new DeleteAtEnd();
         head = solution.deleteAtEnd(head);
 
-        // Print result: 1 -> 2 -> 3
         ListNode curr = head;
         while (curr != null) {
             System.out.print(curr.val + (curr.next != null ? " -> " : ""));
